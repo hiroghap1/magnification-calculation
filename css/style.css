@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+}
+*,::before,::after {
+    box-sizing: inherit;
+}
+input[type="text"],
+input[type="tel"] {
+    font-size: 1rem;
+    padding: 5px .5rem;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+dl {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+dt,dd {
+    flex-basis: 50%;
+    margin: 0;
+    padding: .25rem .5rem;
+}
+dt {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+
+.result {
+    text-align: center;
+    font-size: 1.2rem;
+    display: none;
+}
+.magnification {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
